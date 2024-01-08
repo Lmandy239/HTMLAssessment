@@ -51,6 +51,24 @@ blockquote{
 }
 
 
+#teamRoster {
+    list-style-type: none;
+    padding: 0;
+}
+
+#teamRoster > li {
+    position:relative;
+}
+
+#teamRoster > li img {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: -1;
+    pointer-events: none; 
+}
+
+
 #checkbox-grid {
 	list-style: none;
 }
