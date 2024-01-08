@@ -54,6 +54,8 @@ blockquote{
 #teamRoster {
     list-style-type: none;
     padding: 0;
+    font-weight: bold;
+    color: black;
 }
 
 #teamRoster > li {
@@ -61,11 +63,13 @@ blockquote{
 }
 
 #teamRoster > li img {
+	height: 80px;
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 50px;
     z-index: -1;
     pointer-events: none; 
+    opacity: 0.3;
 }
 
 
