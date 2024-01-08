@@ -1,0 +1,56 @@
+.subjectHeader {
+	color: royalblue;
+	font-family: sans-serif;
+}
+
+caption{
+	color: red;
+	font-weight: bold;
+}
+
+
+th {
+	color: royalblue;
+	font-weight: bold;
+}
+
+
+#scoreBoard {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+
+#scoreBoard th, #scoreBoard td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+#scoreBoard thead th {
+    background-color: lightgoldenrodyellow; 
+}
+
+#scoreBoard tfoot th {
+    background-color: lightgoldenrodyellow;
+}
+
+ul{
+	list-style: square;
+}
+
+a:hover {
+    background-color: lightblue; 
+    text-decoration: none; 
+}
+
+blockquote{
+	background-color: gray;
+	color: cyan;
+}
+
+
+#checkbox-grid {
+	list-style: none;
+}
